@@ -1,5 +1,5 @@
 .pessoas {
     display: flex;
     justify-content: space-around;
-
+    margin: 5rem 0;
 }
