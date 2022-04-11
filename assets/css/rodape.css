@@ -1,5 +1,24 @@
 .rodape {
     background: #ededed;
-    margin: 1.125rem 5rem;
+    color: #595959;
+    padding: 1.125rem 5rem; 
+    
+}
+
+.rodape__information {
     text-transform: lowercase;
+}
+
+@media screen and (min-width: 0) {
+    .rodape {
+        text-align: center;
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .rodape {
+        text-align: right;
+        transition: all 0.4s;
+    }
 }
